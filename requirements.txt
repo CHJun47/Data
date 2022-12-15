@@ -1,15 +1,16 @@
 streamlit
 numpy
 pandas
+pandas.json_normalize
 urllib.request
 plotly.express
 requests
 xmltodict
-streamlit_extras.add_vertical_space
-streamlit_lottie
+streamlit_extras.add_vertical_space.add_vertical_space
+streamlit_lottie.st_lottie
 folium
 googlemaps
-streamlit_folium
-folium
+streamlit_folium.st_folium
+folium.Map, Popup, Marker, Icon, IFrame
 folium.plugins
-folium
+folium.plugins.MarkerCluster

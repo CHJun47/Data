@@ -1,8 +1,6 @@
-import urllib.request
 import numpy as np
 import pandas as pd
 import plotly.express as px
-import requests
 import streamlit as st
 import xmltodict
 from pandas import json_normalize

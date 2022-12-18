@@ -112,7 +112,7 @@ touristDest()
 def Folium_visit():
     row6_spacer1, row6_1, row6_spacer2, row6_2, row_spacer3 = st.columns((0.1, 30, 0.1,5,0.1))
     with row6_1:
-        gmaps_key = "AIzaSyCpqSO-mFH36wjjiqUlQPJHhwYkLE9WWns"
+        gmaps_key = "AIzaSyAUeG7CAguAnxOVTjQWntz9qHve5gykkeM"
         gmaps = googlemaps.Client(key = gmaps_key)
         visitors = pd.read_csv('https://raw.githubusercontent.com/CHJun47/Data/main/visitor(2).csv', encoding='CP949')
         visitors_total = visitors.loc[visitors['내/외국인'] == '합계']
